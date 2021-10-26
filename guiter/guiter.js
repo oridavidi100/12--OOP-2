@@ -1,13 +1,13 @@
 
 class ClasicGuiter{
     #id;
-    constructor(manufactureYear,brand,price){
+    constructor(manufactureYear,brand,price,id){
         this.manufactureYear=manufactureYear;
         this.brand=brand;
         this.price=price;
         this.numberOfString=6;
         this.used=false;
-        this.#id;
+        this.#id=id;
     }
     play(){
         this.price=this.price*0.9
