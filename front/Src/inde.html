@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" defer></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header id="header">soccer ⚽   </header><br>
+    <button type="button" id="Fbutton">create player</button>
+    <div id="createPerson">
+        <h1>createPlayer</h1> 
+        <form>
+            <input id ="Fname" type="text" placeholder="first name" required><br>
+            <input id ="Lname" type="text"  placeholder="last name" required><br>
+            <input id ="salary" type="text"  placeholder="salary" required><br>
+            <input id ="age" type="text"  placeholder="age" required><br>
+            <button type="button" id="goolkeeper">goolkeeper</button>
+            <button type="button" id="player">player</button>
+        </form><br>
+        <div id="createPlayer">
+            <h2>Player</h1><br>
+                <form>
+                    <p>strong leg</p>
+                    <input type="radio" name="leg" id="LeftLeg" value="Left" >
+                    <label for="LeftLeg">Left </label><br>
+                    <input type="radio" name="leg" id="RightLeg" value="Right">
+                    <label for="RightLeg">Right</label><br>
+                    <input id ="position" type="text"  placeholder="position" required><br>
+                    <input id ="celebrationSentence" type="text"  placeholder="celebration Sentence" required><br>
+                    <button type="button" id="submitPlayer"> create Player</button>
+                </form>
+            </div>
+            <div id="createGoalKeeper">
+                <h2>goolkeeper</h1><br>
+                    <form>
+                        <p>strong Hand</p>
+                        <input type="radio" name="Handed" id="LeftHanded" value=true >
+                        <label for="LeftHanded">Left Handed</label><br>
+                        <input type="radio" name="Handed" id="RightHanded" value=false>
+                        <label for="RightHanded">Right Handed</label><br>
+                        <label for="lastGoalConceded">last Goal Conceded:</label>
+                        <input type="date" id="lastGoalConceded" name="last"><br>
+                        <button type="button" id="submitKeeper">create Goal Keeper</button>
+                    </form>
+                </div>
+            </div><br>
+            <input id ="searchPlayer" type="text"  placeholder="search player by name"><br>
+            <button type="button" id="submitSearch">search</button>
+            </body>
+</html>

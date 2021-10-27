@@ -1,3 +1,5 @@
+
+
 class Person{
     #id;
     constructor(_firstName,_sureName,_salary,_age,_id){
@@ -56,11 +58,11 @@ class Player extends Person{
 
 }
 
-class GoalKeepr  extends Person{
-    constructor(_firstName,_sureName,_salary,_age,_id,_isLeftHanded ) {
+class GoalKeeper  extends Person{
+    constructor(_firstName,_sureName,_salary,_age,_id,_isLeftHanded,_lastGoalConceded) {
     super(_firstName,_sureName,_salary,_age,_id);
     this.isLeftHanded=_isLeftHanded
-    this.lastGoalConceded ; 
+    this.lastGoalConceded=_lastGoalConceded ; 
     }
     get getHisHand(){
         if(this.isLeftHanded) return "left"
@@ -80,6 +82,9 @@ class GoalKeepr  extends Person{
 
 
 
-let ori=new GoalKeepr("ori","davidi",100,21,2,true)
+let ori=new GoalKeeper("ori","davidi",100,21,2,true)
 ori.concededAGoal()
 console.log(ori.getHisHand)
+
+module.exports= Player
+module.exports= GoalKeeper

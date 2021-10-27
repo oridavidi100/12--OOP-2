@@ -1,0 +1,21 @@
+body{
+  background-color: lightblue;;
+  text-align: center;
+
+}
+#createPerson{
+    width: 50%;
+    margin-left: 42%;
+    margin-right:8%;
+    text-align: left;
+}
+#createGoalKeeper{
+
+}
+#createPlayer{
+
+}
+#header{
+    text-align: center;
+
+}
