@@ -1,7 +1,8 @@
 body{
-  background-color: lightblue;;
+  background-image:url("https://gmedia.playstation.com/is/image/SIEPDC/fifa-20-editorial-section-background-desktop-tablet-01-ps4-en-19aug19?$native$");
   text-align: center;
-
+  background-size:98% ;
+  
 }
 #createPerson{
     width: 50%;
@@ -9,13 +10,45 @@ body{
     margin-right:8%;
     text-align: left;
 }
-#createGoalKeeper{
+/* #createGoalKeeper{
 
 }
 #createPlayer{
 
-}
+} */
 #header{
     text-align: center;
 
 }
+
+.image{
+  width: 62%;
+  height: 62%;
+}
+
+button {
+  margin: 1.5em;
+  display: inline-block;
+  text-align: center;
+  background-color: black;
+  color: #f7eeee;
+  font-weight: bold;
+  padding: 0.5em 0.6em 0.4em;
+  line-height: 1;
+  border-radius: 1em;
+  position: relative;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 1.25rem;
+}
+button:hover {
+  background-color: rgb(76, 109, 201);
+  letter-spacing: 1px;
+  transition: all 0.4s ease 0s;
+}
+#headers{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: inherit;
+}
+

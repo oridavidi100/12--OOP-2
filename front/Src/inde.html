@@ -10,10 +10,14 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <header id="header">soccer ⚽   </header><br>
-    <button type="button" id="Fbutton">create player</button>
+    <header id="header">F.C Cyber4s ⚽   </header><br>
+    <div class="topnav">
+        <button type="button" id="Fbutton">create player</button>
+        <button type="button" id="Sbutton">search player</button>
+        <button type="button" id="Tbutton">show team</button>
+    </div>
     <div id="createPerson">
-        <h1>createPlayer</h1> 
+        <h1>createPlayer</h1> <br>
         <form>
             <input id ="Fname" type="text" placeholder="first name" required><br>
             <input id ="Lname" type="text"  placeholder="last name" required><br>
@@ -25,6 +29,7 @@
         <div id="createPlayer">
             <h2>Player</h1><br>
                 <form>
+                    <img src="C:\Users\orida\OneDrive\Desktop\ori\Projects\GitHub\12 -OOP-2\fifa-21-pro-clubs-striker.jfif"  class="image" alt="">
                     <p>strong leg</p>
                     <input type="radio" name="leg" id="LeftLeg" value="Left" >
                     <label for="LeftLeg">Left </label><br>
@@ -38,6 +43,7 @@
             <div id="createGoalKeeper">
                 <h2>goolkeeper</h1><br>
                     <form>
+                        <img src="C:\Users\orida\OneDrive\Desktop\ori\Projects\GitHub\12 -OOP-2\Screenshot 2021-10-27 160108.png"  class="image" alt="">
                         <p>strong Hand</p>
                         <input type="radio" name="Handed" id="LeftHanded" value=true >
                         <label for="LeftHanded">Left Handed</label><br>
@@ -49,7 +55,13 @@
                     </form>
                 </div>
             </div><br>
-            <input id ="searchPlayer" type="text"  placeholder="search player by name"><br>
-            <button type="button" id="submitSearch">search</button>
+            <div id="search">
+                <input id ="searchPlayer" type="text"  placeholder="search player by name"><br>
+                <button type="button" id="submitSearch">search</button>
+            </div>
+            <span id="searchCollection"></span>
+            <div>
+                <span id="teamCollection"></span>
+            </div>
             </body>
 </html>

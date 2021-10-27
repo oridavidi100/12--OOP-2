@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const fs = require("fs");
 const path = require("path");
-const GoalKeeper=require('../../soccer/soccer');
+const {GoalKeeper}=require("../../soccer/soccer");
 
 
 router.post("/createK/", (req, res)=> {

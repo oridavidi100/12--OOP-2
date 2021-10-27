@@ -86,5 +86,4 @@ let ori=new GoalKeeper("ori","davidi",100,21,2,true)
 ori.concededAGoal()
 console.log(ori.getHisHand)
 
-module.exports= Player
-module.exports= GoalKeeper
+module.exports= {Player,GoalKeeper}
